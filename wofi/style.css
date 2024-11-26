@@ -1,0 +1,50 @@
+* {
+  font-family: JetBrainsMono;
+  color: #e5e9f0;
+  background: transparent;
+}
+
+#window {
+  background: rgba(10, 27, 48, 0.7)/*rgba(41, 46, 66, 0.5)*/;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #2dc7ff/*#b072d1*/;
+}
+
+#input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border-color: transparent;
+}
+
+#input:focus{
+  border-color: #2dc7ff;
+  outline: none;
+}
+
+#outer-box {
+  padding: 20px;
+}
+
+#img {
+  margin-right: 6px;
+}
+
+#entry {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#entry:selected {
+  background-color: #050f1a;
+  color: #050f1a;
+  border-radius: 15px;
+}
+
+#text {
+  margin: 2px;
+}
